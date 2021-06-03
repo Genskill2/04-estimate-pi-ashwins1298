@@ -10,7 +10,7 @@ float frandom() {
   float ret = (float)q/(float)RAND_MAX;
   return ret;
 }
-
+// emit sir
 int main(void) {
   float pi0;
   float pi1;
