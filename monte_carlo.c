@@ -3,7 +3,19 @@
 #include <stdio.h>
 #include <math.h>
 
-float mc_pi(int);
+float mc_pi(int n){
+  float a=0.0;
+  for (int i=0;i<k;i++)
+  {
+    float k=frandom();
+  
+    float j=frandom();
+    float d=sdrt((k*k)+(j*j));
+    if d<=1){
+      a++}}
+  float ans = 4.0*(a/(float)x);
+  return (ans);
+}
 
 float frandom() {
   long int q = random();
